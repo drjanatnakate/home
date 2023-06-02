@@ -1,4 +1,153 @@
-Index Page 
-Line 2
-Home Visit
-Test from local machine
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="jquery-3.3.1.js"></script>
+<script src="index.js"></script>
+
+
+<!-- Style Dropdoen menu -->
+<style>
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+<!-- Style Dropdoen menu -->
+
+
+<style>
+table, th, td {
+  border: 1px solid black;
+   text-align: center;
+}
+
+.centertable{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.centertext {
+ text-align: center;
+}
+
+</style>
+
+
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+   
+</head>
+
+
+<body>
+
+<!--Comment HTML-->
+<h1 class="centertext">Dr Janat Nakate - Clinical Medical Officer</h1>
+<div class="row"> 
+  <div class="column" class="center">
+    <img src="images\deborahnjuba.jpg">
+    
+    <img src="images\ruthwilson.jpg">
+	</div>
+	</div>
+<p class="centertext">Licensed by Kenya Medical Board</p>
+<p class="centertext">In-Home Medical Services</p>
+<p class="centertext">Affordable Rates</p>
+<p class="centertext">Speaks English, Buganda, Swahili</p>
+<p class="centertext">Wound Care</p>
+<p class="centertext">Prescriptions and Medications</p>
+
+
+
+<br>
+<br>
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Menu</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+	<!--<a href="admin.html">Admin</a> -->
+	</div>
+</div>
+
+
+<br>
+<br>
+
+	
+	
+
+	<br>
+
+<br>
+
+
+
+</body>
+</html>
