@@ -106,7 +106,7 @@ window.onclick = function(event) {
 <body>
 
 <!--Comment HTML-->
-<h1 class="centertext">Dr Janat Nakate - Clinical Medical Officer</h1>
+<h1 class="centertext">Dr Janat Nakate - Clinical Medical Officer and Fitness Trainer</h1>
 <div class="row"> 
   <div class="column" class="center">
     <img src="images\deborahnjuba.jpg">
@@ -114,14 +114,15 @@ window.onclick = function(event) {
     <img src="images\ruthwilson.jpg">
 	</div>
 	</div>
-<p class="centertext">Licensed by Kenya Medical Board</p>
-<p class="centertext">In-Home Medical Services</p>
+<p class="centertext">Licensed by Uganda Medicaal Board and Kenya Medical Board</p>
+<p class="centertext">In-Home/Online Medical Health and Fitness Services</p>
 <p class="centertext">Affordable Rates</p>
 <p class="centertext">Speaks English, Buganda, Swahili</p>
+<!--
 <p class="centertext">Wound Care</p>
 <p class="centertext">Prescriptions and Medications</p>
 
-
+-->
 
 <br>
 <br>
