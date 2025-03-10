@@ -62,10 +62,18 @@ table, th, td {
 }
 
 img {
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+imgoval {
+ border-radius: 50%;
     display: block;
   margin-left: auto;
   margin-right: auto;
   }
+
 
 .centertext {
  text-align: center;
@@ -140,10 +148,11 @@ window.onclick = function(event) {
 <div class="row"> 
   <div class="column" class="center">
   <p class="centertext"></p>
-    <img src="janatseatedzen.jpg">
-	<img src="janatseatedzen.jpg" alt="Janat Zen" style="width:192px;height:256px;">
-    </div>
-	</div>
+   	<img src="images/janatseatedzen.jpg" alt="Janat Seated Zen" style="width:192px;height:256px;">
+	<img src="images/janathalfsquat.jpg" alt="Janat Half Squat" style="width:192px;height:256px;">
+	<img src="images/janatplank.jpg" alt="Janat Plank" style="width:192px;height:256px;">
+		    </div>
+
 	
 
 	<br>
