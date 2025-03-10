@@ -62,8 +62,7 @@ table, th, td {
 }
 
 img {
-  border-radius: 50%;
-  display: block;
+    display: block;
   margin-left: auto;
   margin-right: auto;
   }
@@ -107,24 +106,8 @@ window.onclick = function(event) {
 
 <!--Comment HTML-->
 <h1 class="centertext">Dr Janat Nakate - Clinical Medical Officer and Fitness Trainer and Physical Therapy Services</h1>
-<div class="row"> 
-  <div class="column" class="center">
-    <img src="images\deborahnjuba.jpg">
-    
-    <img src="images\ruthwilson.jpg">
-	</div>
-	</div>
-<p class="centertext">Licensed by Uganda Medical Board and Kenya Medical Board</p>
-<p class="centertext">In-Home/Online Medical Health and Fitness Services</p>
-<p class="centertext">Affordable Rates</p>
-<p class="centertext">Speaks English, Buganda, Swahili</p>
-<!--
-<p class="centertext">Wound Care</p>
-<p class="centertext">Prescriptions and Medications</p>
 
--->
 
-<br>
 <br>
 
 <div class="dropdown">
@@ -137,11 +120,30 @@ window.onclick = function(event) {
 	</div>
 </div>
 
-
 <br>
 <br>
 
-	
+
+
+<p class="centertext">Licensed by Uganda Medical Board and Kenya Medical Board</p>
+<p class="centertext">In-Home/Online Medical Health and Fitness Services</p>
+<p class="centertext">Affordable Rates</p>
+<p class="centertext">Speaks English, Buganda, Swahili</p>
+<!--
+<p class="centertext">Wound Care</p>
+<p class="centertext">Prescriptions and Medications</p>
+
+-->
+
+<br>
+<br>
+<div class="row"> 
+  <div class="column" class="center">
+  <p class="centertext"></p>
+    <img src="janatseatedzen.jpg">
+	<img src="janatseatedzen.jpg" alt="Janat Zen" style="width:192px;height:256px;">
+    </div>
+	</div>
 	
 
 	<br>
